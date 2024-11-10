@@ -2,7 +2,6 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "backend of auruma",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
@@ -12,5 +11,10 @@
   "devDependencies": {
     "nodemon": "^3.1.7",
     "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1"
   }
 }
